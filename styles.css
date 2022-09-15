@@ -69,13 +69,13 @@ h2 {
 span {
     color: #ffff;
 }
-@media only screen and (max-width: 425px) and (min-widh: 325px) {
+@media only screen and (max-width: 425px)  {
     body {
         background: linear-gradient(to right, rgb(92, 3, 17), rgb(14, 6, 59));
         
     }
     .container {
-        width: 350px;
+        width: 400px;
         height: 200px;
     }
     .clock {
@@ -88,5 +88,6 @@ span {
     }
     h2 {
         font-size: 0.625rem;
+         padding-top: 30px;
     }
   }
